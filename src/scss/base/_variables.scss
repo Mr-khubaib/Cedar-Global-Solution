@@ -1,0 +1,71 @@
+//== Typography Variable
+$bodyfont: "Poppins", sans-serif;
+$bodyfont-Size: 14px;
+$baseFontSize: 15px;
+$headingfont: "Poppins", sans-serif;
+
+//== Theme Typo Colors
+$bodyfont-Color: #6a7684;
+$bodyfont-Color: #919191;
+$headingfont-Color: #082960;
+$border-Color: #eee;
+
+//== Theme Color
+$theme-BlueColor: linear-gradient(270deg, #052861, #4163a1);
+$theme-SkinColor: linear-gradient(275deg, #052861, #4163a1);
+$theme-DarkColor: #082960;
+$theme-GreyColor: #f7f7f7;
+$theme-WhiteColor: #ffffff;
+$theme-threeColor: linear-gradient(180deg, #052861a1, #052861a1);
+// $theme-threeColor: linear-gradient(
+//   180deg,
+//   hsla(0, 0%, 100%, 0) -50%,
+//   rgba(0, 0, 0, 0.6)
+// );
+
+//== Social Media Icons Color
+$facebook: #3b5999;
+$google: #d34836;
+$twitter: #1da1f2;
+$pinterest: #cb2028;
+$youtube: #cc332d;
+$reddit: #ff4500;
+$linkedin: #0077b5;
+
+// Background Colors
+.bg {
+  &-theme-SkinColor {
+    background: $theme-SkinColor;
+  }
+
+  &-theme-DarkColor {
+    background-color: $theme-DarkColor;
+  }
+
+  &-theme-GreyColor {
+    background-color: $theme-GreyColor;
+  }
+
+  &-theme-WhiteColor {
+    background-color: $theme-WhiteColor;
+  }
+}
+
+// Text Colors
+.text {
+  &-theme-SkinColor {
+    color: $theme-SkinColor;
+  }
+
+  &-theme-DarkColor {
+    color: $theme-DarkColor;
+  }
+
+  &-theme-GreyColor {
+    color: $theme-GreyColor;
+  }
+
+  &-theme-WhiteColor {
+    color: $theme-WhiteColor;
+  }
+}
